@@ -17,8 +17,12 @@
 
 }
 
+body{
+    margin: 0;
+}
 
 
+/* grid */
 
 
 
@@ -34,7 +38,6 @@
   }
   
   #page > header {
-    
     grid-area: head;
     background-color: var(--primary-coral) ;
     color: white;
@@ -49,12 +52,73 @@
   #page > main {
     grid-area: main;
     background-color: var(--light-pink);
+    padding: 1rem;
   }
+
+
+  /* links */
 
   .li-comps{
       list-style-type: none;
       padding: 1rem 0rem;
+  }
 
+  a{
+      text-decoration: none;
+      color:black;
 
   }
+.component-name:hover{
+    padding: 1rem;
+    color: white;
+    background-image:  linear-gradient(to right, var(--primary-orange) , var(--primary-pink)) ;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+}
+
+  
+
+/* button */
+
+.primary-button{
+    padding: 1rem;
+    color: white;
+    font-size: 1rem;
+    background-image:  linear-gradient(to right, var(--primary-orange) , var(--primary-pink)) ;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+.primary-button:hover{
+    background-image:  linear-gradient(to left, var(--primary-orange) , var(--primary-pink)) ;
+    border: none;
+    outline: none;   
+}
+
+.secondary-button{
+    padding: 1rem;
+    color: var(--primary-coral);
+    font-size: 1rem;
+    background-color: white;
+    outline: none;
+    border: 3px solid var(--primary-coral);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+.secondary-button:hover{
+    color: var(--primary-coral);
+    background-color: var(--light-pink) ;
+    border: 3px solid var(--primary-coral);
+    outline: none;   
+}
+
+
   
