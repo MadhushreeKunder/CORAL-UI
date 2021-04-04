@@ -50,4 +50,11 @@
     grid-area: main;
     background-color: var(--light-pink);
   }
+
+  .li-comps{
+      list-style-type: none;
+      padding: 1rem 0rem;
+
+
+  }
   
