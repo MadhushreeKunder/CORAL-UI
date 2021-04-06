@@ -10,7 +10,9 @@
     --light-pink:#ffeaeb;
     --lightest-pink:  #fdf2f2;
     --dark-gray:#4f5255;
-    --light-gray:#f1f1f1;   
+    --light-gray:#f1f1f1;  
+    --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.075);
+ 
 }
 
 *{
@@ -52,6 +54,8 @@ body{
    .main {
     grid-area: main;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
     
   }
 
@@ -88,6 +92,10 @@ body{
   
 
 /*********** button *********/
+.buttons{
+    display:flex;
+    flex-wrap: wrap;
+}
 
 .button{
     padding: 1rem; 
@@ -110,8 +118,9 @@ body{
     background-color:  var(--dark-coral) ;
     border: none;
     outline: none; 
-    transition: 0.5s;  
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5ss;  
+    box-shadow: var(--box-shadow);
+
 }
 
 .secondary-button{
@@ -126,17 +135,31 @@ body{
     background-color: var(--light-pink) ;
     outline: none;  
     transition: 0.5s; 
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    box-shadow:var(--box-shadow);
+
 } 
+
+.btn-add-to-cart{
+    text-align: right;
+    background-color: var(--light-gray);
+}
 
 
 /* ********card******* */
 
+.cards-section{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
 .card{
     width: 250px;
-    text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow:var(--box-shadow);
+    padding: 0.75rem;
+    margin: 1rem;
+    border-radius: 1rem;
 }
 
 .card-img{
@@ -144,7 +167,8 @@ body{
 }
 
 .card-text{
-    /* padding: 1rem; */
+    text-align: left;
+    /* background-color: var(--primary-coral); */
 }
 
 
