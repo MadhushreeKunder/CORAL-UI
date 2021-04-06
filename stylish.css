@@ -10,13 +10,11 @@
     --light-pink:#ffeaeb;
     --lightest-pink:  #fdf2f2;
     --dark-gray:#4f5255;
-    --light-gray:#f1f1f1;
-
-    
+    --light-gray:#f1f1f1;   
 }
+
 *{
     font-family: 'Poppins', sans-serif;
-
 }
 
 body{
@@ -24,11 +22,11 @@ body{
 }
 
 
-/* grid */
+/********** grid ******/
 
 
 
-#page {
+.page {
     display: grid;
     width: 100%;
     height: 100vh;
@@ -39,38 +37,45 @@ body{
     grid-template-columns: 1fr 5fr;
   }
   
-  #page > header {
+  .header {
     grid-area: head;
     background-color: var(--primary-coral) ;
     color: white;
 
   }
   
-  #page > nav {
+.navigation {
     grid-area: nav;
     background-color: var(--lightest-pink);
   }
   
-  #page > main {
+   .main {
     grid-area: main;
-   
-    padding: 1rem;
+    padding: 2rem;
+    
+  }
+
+  /* *********** image ************ */
+
+  .hero-img{
+      height: 10rem;
+      align-items: center;
   }
 
 
-  /* links */
+  /*************** links ********************/
 
   .li-comps{
       list-style-type: none;
       padding: 1rem 0rem;
   }
 
-  a{
+  .li{
       text-decoration: none;
       color:black;
 
   }
-.component-name:hover{
+.li-hover:hover{
     padding: 1rem;
     color: white;
     background-image:  linear-gradient(to right, var(--primary-orange) , var(--primary-pink)) ;
@@ -82,44 +87,48 @@ body{
 
   
 
-/* button */
+/*********** button *********/
 
-.primary-button{
-    padding: 1rem;
-    color: white;
-    font-size: 1rem;
-    background-color:  var(--primary-coral) ;
+.button{
+    padding: 1rem; 
+    font-size: 1rem; 
     outline: none;
     border: none;
     border-radius: 0.5rem;
     text-decoration: none;
     box-sizing: border-box;
+    margin: 1rem;
+
+}
+
+.primary-button{
+    color: white;
+    background-color:  var(--primary-coral) ;
 
 }
 .primary-button:hover{
     background-color:  var(--dark-coral) ;
     border: none;
-    outline: none;   
+    outline: none; 
+    transition: 0.5s;  
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .secondary-button{
-    padding: 1rem;
-    color: var(--primary-coral);
-    font-size: 1rem;
+    color: var(--primary-coral); 
     background-color: white;
     outline: none;
     border: 3px solid var(--primary-coral);
-    border-radius: 0.5rem;
-    text-decoration: none;
-    box-sizing: border-box;
-
 }
 
 .secondary-button:hover{
     color: var(--dark-coral);
     background-color: var(--light-pink) ;
-    outline: none;   
-}
+    outline: none;  
+    transition: 0.5s; 
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+} 
+
 
 
   
