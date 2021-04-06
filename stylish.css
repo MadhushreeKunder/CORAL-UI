@@ -4,9 +4,11 @@
 :root{
     
     --primary-coral:#FE656B;
+    --dark-coral:#fe3239e1;
     --primary-pink: #FD6178;
     --primary-orange:#FF695E;
     --light-pink:#ffeaeb;
+    --lightest-pink:  #fdf2f2;
     --dark-gray:#4f5255;
     --light-gray:#f1f1f1;
 
@@ -46,12 +48,12 @@ body{
   
   #page > nav {
     grid-area: nav;
-    background-color: white;
+    background-color: var(--lightest-pink);
   }
   
   #page > main {
     grid-area: main;
-    background-color: var(--light-pink);
+   
     padding: 1rem;
   }
 
@@ -86,7 +88,7 @@ body{
     padding: 1rem;
     color: white;
     font-size: 1rem;
-    background-image:  linear-gradient(to right, var(--primary-orange) , var(--primary-pink)) ;
+    background-color:  var(--primary-coral) ;
     outline: none;
     border: none;
     border-radius: 0.5rem;
@@ -95,7 +97,7 @@ body{
 
 }
 .primary-button:hover{
-    background-image:  linear-gradient(to left, var(--primary-orange) , var(--primary-pink)) ;
+    background-color:  var(--dark-coral) ;
     border: none;
     outline: none;   
 }
@@ -114,9 +116,8 @@ body{
 }
 
 .secondary-button:hover{
-    color: var(--primary-coral);
+    color: var(--dark-coral);
     background-color: var(--light-pink) ;
-    border: 3px solid var(--primary-coral);
     outline: none;   
 }
 
