@@ -17,10 +17,17 @@
 
 *{
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
 }
 
 body{
     margin: 0;
+}
+
+div{
+    display: block;
 }
 
 
@@ -43,12 +50,18 @@ body{
     grid-area: head;
     background-color: var(--primary-coral) ;
     color: white;
+    position: sticky;
+    z-index: 10;
 
   }
   
 .navigation {
     grid-area: nav;
     background-color: var(--lightest-pink);
+    padding: 1rem;
+    position: sticky;
+    z-index: 11;
+  
   }
   
    .main {
@@ -86,7 +99,7 @@ body{
     outline: none;
     border: none;
     border-radius: 0.5rem;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
   
@@ -139,10 +152,11 @@ body{
 
 } 
 
-.btn-add-to-cart{
+/* .btn-add-to-cart{
+    
     text-align: right;
     background-color: var(--light-gray);
-}
+} */
 
 
 /* ********card******* */
@@ -154,22 +168,61 @@ body{
 }
 
 .card{
-    width: 250px;
+    width: 15rem;
+    height: 15rem;
     border-radius: 0.5rem;
     box-shadow:var(--box-shadow);
     padding: 0.75rem;
     margin: 1rem;
     border-radius: 1rem;
+    position: relative;
 }
 
 .card-img{
     width: 100%;
 }
 
-.card-text{
-    text-align: left;
-    /* background-color: var(--primary-coral); */
+.card-info{
+    /* text-align: left; */
+    /*background-color: var(--primary-coral); */
 }
 
+.card-add-to-cart{
+    background-color: var(--primary-coral);
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 1.5rem;
+    color: white;
+    box-shadow: var(--box-shadow);
+
+}
+
+.card-badge-small{
+    position:absolute;
+    font-size: 1rem;
+    font-weight: 400;
+    top: 1rem;
+    left:0rem;
+    background-color: var(--primary-coral);
+    color: white;
+    padding:0rem 0.5rem;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+
+}
+
+.card-badge-large{
+    position:absolute;
+    font-size: 1rem;
+    font-weight: 400;
+    top: 1.7rem;
+    left:-1.8rem;
+    background-color: var(--primary-coral);
+    color: white;
+    padding:0rem 1rem;
+    transform:rotate(-45deg);
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
 
   
