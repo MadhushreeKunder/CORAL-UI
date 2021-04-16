@@ -52,9 +52,10 @@ div{
   .header {
     grid-area: head;
     background-color: var(--primary-coral) ;
+    padding: 1rem;
+    font-size: 2rem;
     color: white;
-    position: sticky;
-    z-index: 10;
+    
 
   }
   
@@ -62,8 +63,7 @@ div{
     grid-area: nav;
     background-color: var(--lightest-pink);
     padding: 1rem;
-    position: sticky;
-    z-index: 11;
+    
   
   }
   
@@ -119,6 +119,7 @@ div{
     margin: 1rem;
     display: inline-block;
     position: relative;
+    border-radius: 0.3rem;
     
 }
 
