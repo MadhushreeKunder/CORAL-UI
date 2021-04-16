@@ -26,7 +26,7 @@
         <nav class="navigation">
             <h2>Components</h2>
             <ul>
-                <li class="li-comps"><a href="#" class="li li-hover">Alert</a></li>
+                <li class="li-comps"><a href="#alerts" class="li li-hover">Alert</a></li>
                 <li class="li-comps"><a href="#" class="li li-hover">Avatar</a></li>
                 <li class="li-comps"><a href="#" class="li li-hover">Badge</a></li>
                 <li class="li-comps"><a href="#buttons" class="li li-hover">Button</a></li>
@@ -38,52 +38,101 @@
 
         </nav>
 
-        <!-------------------------------- -------buttons--------------------------------------------- -->
+
+
 
         <main class="main">
-            <!-- use flex -->
-            <h1>Button</h1>
-            <div class="buttons" id="buttons">
-                <a class="button primary-button" href="/index.html"> Primary Button
-                </a>
-                <a class="button secondary-button" href=""> Secondary Button
-                </a>
-            </div>
+
+            <!-- ------------------------Alerts--------------------------------------------------------- -->
+            <section id="alerts">
+                <h1>Alerts</h1>
+
+                <div class="container">
+                    <h4>Error Alert</h4>
+                    <div class="alerts alerts-error">
+                        This is an <strong>error</strong> alert!<span class="closebtn">&times;</span>
+                        <!-- onclick="this.parentElement.style.display='none';"  -----to close the error -->
+                    </div>
+
+
+                    <h4>Success Alert</h4>
+                    <div class="alerts alerts-success">
+                        This is an <strong>success</strong> alert!<span class="closebtn">&times;</span>
+                    </div>
+
+
+                    <h4>Info Alert</h4>
+                    <div class="alerts alerts-info">
+                        This is an <strong>info</strong> alert!<span class="closebtn">&times;</span>
+                    </div>
+
+
+                    <h4>Warning Alert</h4>
+                    <div class="alerts alerts-warning">
+                        This is an <strong>warning</strong> alert!<span class="closebtn">&times;</span>
+                    </div>
+
+                </div>
+
+
+
+            </section>
+
+
+            <!-------------------------------- -------buttons--------------------------------------------- -->
+
+            <section id="buttons">
+                <h1>Button</h1>
+                <div class="container">
+                    <div class="buttons">
+                        <a class="button primary-button" href="/index.html"> Primary Button
+                        </a>
+                        <a class="button secondary-button" href=""> Secondary Button
+                        </a>
+                    </div>
+
+                </div>
+
+            </section>
+
 
 
             <!-- -------------------------------------cards-------------------------------------------- -->
-            <h1>Card</h1>
-            <div class="cards-section" id="cards">
-                <div class="card">
-                    <img src="images/pizza.jpg" class="card-img">
-                    <div class="card-info">
-                        <p class="card-title">Carbonara Pizza</p>
-                        <small class="card-price">Rs. 500</small>
-                        <a class="card-add-to-cart">Add+</a>
-                    </div>
-                </div>
+            <section id="cards">
+                <h1>Card</h1>
+                <div class="container">
+
+                    <div class="cards-section">
+                        <div class="card">
+                            <img src="images/pizza.jpg" class="card-img">
+                            <div class="card-info">
+                                <p class="card-title">Carbonara Pizza</p>
+                                <small class="card-price">Rs. 500</small>
+                                <a class="card-add-to-cart">Add+</a>
+                            </div>
+                        </div>
 
 
-                <div class="card">
-                    <img src="images/pasta.jpg" class="card-img">
-                    <div class="card-badge-small">New</div>
-                    <div class="card-info">
-                        <p class="card-title">Squid Ink Pasta</p>
-                        <small class="card-price">Rs. 500</small>
-                        <a class="card-add-to-cart">Add+</a>
-                    </div>
+                        <div class="card">
+                            <img src="images/pasta.jpg" class="card-img">
+                            <div class="card-badge-small">New</div>
+                            <div class="card-info">
+                                <p class="card-title">Squid Ink Pasta</p>
+                                <small class="card-price">Rs. 500</small>
+                                <a class="card-add-to-cart">Add+</a>
+                            </div>
+                        </div>
 
-
-                </div>
-
-                <div class="card">
-                    <img src="images/salad.jpg" class="card-img">
-                    <div class="card-badge-large">PRO 20% OFF</div>
-                    <div class="card-info">
-                        <p class="card-title">Mozarella salad</p>
-                        <small class="card-price">Rs. 500</small>
-                        <a class="card-add-to-cart">Add+</a>
-                    </div>
+                        <div class="card">
+                            <img src="images/salad.jpg" class="card-img">
+                            <div class="card-badge-large">PRO 20% OFF</div>
+                            <div class="card-info">
+                                <p class="card-title">Mozarella salad</p>
+                                <small class="card-price">Rs. 500</small>
+                                <a class="card-add-to-cart">Add+</a>
+                            </div>
+                        </div>
+            </section>
 
 
 

@@ -12,7 +12,10 @@
     --dark-gray:#4f5255;
     --light-gray:#f1f1f1;  
     --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.075);
- 
+    --alert-red: #F66359;
+    --alert-green: #6BBD6E;
+    --alert-blue: #47A8F5;
+    --alert-yellow: #FFAA2C; 
 }
 
 *{
@@ -72,6 +75,10 @@ div{
     
   }
 
+  .container{
+      margin: 0rem 2rem;
+  }
+
   /* *********** image ************ */
 
   .hero-img{
@@ -101,6 +108,46 @@ div{
     border-radius: 0.5rem;
     transition: 0.2s;
 }
+
+
+
+/* **************alerts*********/
+
+.alerts{
+    padding: 1rem;
+    color: white;
+    margin: 1rem;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.alerts-error{
+    background-color: var(--alert-red);
+}
+
+.alerts-success{
+    background-color:var(--alert-green);
+}
+
+.alerts-info{
+    background-color: var(--alert-blue);
+}
+
+.alerts-warning{
+    background-color: var(--alert-yellow);
+}
+
+.closebtn {
+    margin-left: 1rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    cursor: pointer;
+
+}
+
 
   
 
