@@ -4,7 +4,6 @@
 :root{
     
     --primary-coral:#FE656B;
-    --dark-coral:#fe3239e1;
     --primary-pink: #FD6178;
     --primary-orange:#FF695E;
     --light-pink:#ffeaeb;
@@ -16,6 +15,10 @@
     --green: #6BBD6E;
     --blue: #47A8F5;
     --yellow: #FFAA2C;
+    --dark-red:#ad0107;
+    --dark-green: #2c992f;
+    --dark-blue: #020075;
+    --dark-yellow:#ff641c;
 }
 
 *{
@@ -186,12 +189,12 @@ div{
 /* *************badges************* */
 
 .badge{
-    height: 0.75rem;
-    width: 0.75rem;
+    height: 1rem;
+    width: 1rem;
     border-radius: 50%;
-    border: 2px solid white;
-    bottom: 0.5rem;
-    right: 0.1rem;
+    border: 3px solid white;
+    bottom: 0.4rem;
+    right: 0rem;
     position: absolute;
     display: inline;
 }
@@ -204,6 +207,37 @@ div{
 .badge-red{
     background-color: var(--red);
 }
+
+.badge-icon{
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    top: -0.5rem;
+    right: -0.5rem;
+    position: absolute;
+    display: inline;
+    font-size: 1rem;
+    padding: 0rem 0rem 1rem 0.3rem;
+    background-color: white;
+
+}
+
+.badge-cart{
+    border: 3px solid var(--dark-yellow);
+    color: var(--dark-yellow);
+}
+
+.badge-bookmark{
+    border: 3px solid var(--dark-blue);
+    color: var(--dark-blue);
+}
+
+.badge-heart{
+    border: 3px solid var(--dark-red);
+    color: var(--dark-red);
+}
+
+
   
 
 /*********** button *********/
@@ -327,4 +361,28 @@ div{
     clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
 }
 
+
+
+/* ********icons************ */
+
+.icon{
+    font-size: 2rem;
+    margin: 1rem;
+    position:relative;
+    display: inline-block;
+    
+}
+
+.icon-cart{
+    color: var(--yellow);
+}
+
+.icon-bookmark{
+    color: var(--blue);
+}
+
+.icon-heart{
+    color: var(--red);
+
+}
   
