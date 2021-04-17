@@ -244,7 +244,7 @@ div{
 /*********** button *********/
 .buttons{
     display:flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
 
 .button{
@@ -255,32 +255,32 @@ div{
     border-radius: 0.5rem;
     text-decoration: none;
     box-sizing: border-box;
-    margin: 1rem;
+    margin:  1rem;
 
 }
 
-.primary-button{
+.button-primary{
     color: white;
     background-color:  var(--primary-coral) ;
 
 }
-.primary-button:hover{
+.button-primary:hover{
     background-color:  var(--dark-coral) ;
     border: none;
     outline: none; 
-    transition: 0.5ss;  
+    transition: 0.5s;  
     box-shadow: var(--box-shadow);
 
 }
 
-.secondary-button{
+.button-secondary{
     color: var(--primary-coral); 
     background-color: white;
     outline: none;
     border: 3px solid var(--primary-coral);
 }
 
-.secondary-button:hover{
+.button-secondary:hover{
     color: var(--dark-coral);
     background-color: var(--light-pink) ;
     outline: none;  
@@ -288,6 +288,41 @@ div{
     box-shadow:var(--box-shadow);
 
 } 
+
+.button-icon{
+    border-radius: 0.2rem;
+    background-color: var(--primary-coral);    
+    color: white;
+    font-size:large;
+}
+
+.button-icon:hover{
+    background-color:  var(--dark-coral) ;
+    border: none;
+    outline: none; 
+    transition: 0.5s;  
+    box-shadow: var(--box-shadow);
+
+}
+
+.button-fab{  
+    border: 3px solid var(--primary-coral);
+    color: white;    
+    background-color: var(--primary-coral);
+    border-radius: 50%;
+    height:4rem;
+    width: 4rem;
+    box-shadow: var(--box-shadow);
+}
+
+.button-fab:hover{
+    background-color:  var(--dark-coral) ;
+    border: none;
+    outline: none; 
+    transition: 0.5s;  
+    box-shadow: var(--box-shadow);
+
+}
 
 /* .btn-add-to-cart{
     
@@ -333,6 +368,7 @@ div{
     right: 1.5rem;
     color: white;
     box-shadow: var(--box-shadow);
+    margin: 0;
 
 }
 
