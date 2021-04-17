@@ -422,4 +422,31 @@ div{
     color: var(--red);
 
 }
+
+/* ******modal********* */
+
+.modal{
+    width: 20rem;
+    box-shadow: var(--box-shadow);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin:3rem;
+    align-items: center;
+    background-color: var(--light-pink);
+
+}
   
+.modal-buttons{
+display: flex;
+justify-content: center;
+margin: 0.5rem 0.2rem;
+border-radius: 0.2rem;
+}
+
+.modal-icon{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    color: var(--yellow);
+    padding: 1rem;
+}
