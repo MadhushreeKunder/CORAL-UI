@@ -10,6 +10,7 @@
     --light-pink:#ffeaeb;
     --lightest-pink:  #fdf2f2;
     --dark-gray:#4f5255;
+    --black: #333;
     --light-gray:#f1f1f1;  
     --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.075);
     --red: #F66359;
@@ -450,3 +451,51 @@ border-radius: 0.2rem;
     color: var(--yellow);
     padding: 1rem;
 }
+
+/* *******toast***************** */
+
+#toast {
+    visibility: hidden; 
+    min-width: 250px; 
+    margin-left: -125px; 
+    background-color: var(--black);
+    color: white; 
+    text-align: center; 
+    border-radius: 2px;
+    padding: 1rem;
+    position: fixed; 
+    z-index: 1;
+    left: 85%; 
+    bottom: 50px;                           
+  }
+  
+  #toast.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  /* Animations */
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 50px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 50px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 50px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 50px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+
+  .toast-button{
+      margin: 3rem;
+  }
