@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,305 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="styles.css" rel="stylesheet">
     <link href="stylish.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/8d70e79a7e.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-    <!-- <h1>INTERSTELLAR-UI</h1> -->
-    <!-- <a class="primary-button" href="index.html" >Go to Home</a> -->
-    <!-- <a class="primary-button" href="components/buttons.html"> Buttons</a> -->
-
-
-    <div class="page">
-
-        <header class="header">
+    
+    <header class="header">
+        
             CORAL-UI
-        </header>
+        
+    </header>
+    
+
+    <div class="main-body">
+        <div><img src="images/undraw_launch_day_4e04.svg" class="hero-img"></div>
+        <div>
+            <h1 class="hero-txt">CORAL-UI</h1>
+             <p class="hero-sub-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, enim, sunt
+                voluptate nobis doloribus minima omnis illum.</p>
+            <div> </div>
+            <a class="button button-primary" href="mainpage.html">GET STARTED</a>
+        </div>
 
-        <nav class="navigation">
-            <h2>Components</h2>
-            <ul>
-                <li class="li-comps"><a href="#alerts" class="li li-hover">Alert</a></li>
-                <li class="li-comps"><a href="#avatars" class="li li-hover">Avatar</a></li>
-                <li class="li-comps"><a href="#badges" class="li li-hover">Badge</a></li>
-                <li class="li-comps"><a href="#buttons" class="li li-hover">Button</a></li>
-                <li class="li-comps"><a href="#cards" class="li li-hover">Card</a></li>
-                <li class="li-comps"><a href="#icons" class="li li-hover">Icon</a></li>
-                <li class="li-comps"><a href="#modal" class="li li-hover">Modal</a></li>
-                <li class="li-comps"><a href="#ratings" class="li li-hover">Rating</a></li>
-                <li class="li-comps"><a href="#toasts" class="li li-hover">Toast</a></li>
 
-            </ul>
-
-        </nav>
-
-
-
-
-        <main class="main">
-
-            <!-- ------------------------Alerts--------------------------------------------------------- -->
-            <section id="alerts">
-                <h1 class="heading-text">Alerts</h1>
-
-                <div class="container">
-                    <h4>Error Alert</h4>
-                    <div class="alerts alerts-error">
-                        This is an <strong>error</strong> alert!<span class="closebtn">&times;</span>
-                        <!-- onclick="this.parentElement.style.display='none';"  -----to close the error -->
-                    </div>
-
-
-                    <h4>Success Alert</h4>
-                    <div class="alerts alerts-success">
-                        This is a <strong>success</strong> alert!<span class="closebtn">&times;</span>
-                    </div>
-
-
-                    <h4>Info Alert</h4>
-                    <div class="alerts alerts-info">
-                        This is an <strong>info</strong> alert!<span class="closebtn">&times;</span>
-                    </div>
-
-
-                    <h4>Warning Alert</h4>
-                    <div class="alerts alerts-warning">
-                        This is a <strong>warning</strong> alert!<span class="closebtn">&times;</span>
-                    </div>
-
-                </div>
-
-
-
-            </section>
-
-            <!-- ---------------------------------avatar-------------------------------- -->
-
-            <section id="avatars">
-                <h1 class="heading-text">Avatars</h1>
-                <div class="container">
-                    <div class="avatar"><img class="avatar-img avatar-img-small" src="images/My photo-madhushree.png"
-                            alt="Avatar"></div>
-                    <div class="avatar"><img class="avatar-img avatar-img-medium" src="images/My photo-madhushree.png"
-                            alt="Avatar"></div>
-                    <div class="avatar"><img class="avatar-img avatar-img-large" src="images/My photo-madhushree.png"
-                            alt="Avatar"></div>
-
-
-                </div>
-
-            </section>
-
-            <!-------------------------------badges------------------------------------------- -->
-
-            <section id="badges">
-                <h1 class="heading-text">Badges</h1>
-
-                <div class="container">
-                    <h4>Badge on Avatars</h4>
-                    <div class="avatar">
-                        <img class="avatar-img avatar-img-medium " src="images/My photo-madhushree.png" alt="Avatar">
-                        <div class="badge badge-green"></div>
-                    </div>
-
-                    <div class="avatar">
-                        <img class="avatar-img avatar-img-medium badge-red" src="images/My photo-madhushree.png"
-                            alt="Avatar">
-                        <div class="badge badge-red"></div>
-                    </div>
-
-                    <h4>Badge on Icons</h4>
-                    <div class="icons">
-                        <div class="icon">
-                            <i class="fas fa-shopping-cart  icon-cart"></i>
-                            <div class="badge-icon badge-cart">8</div>
-                        </div>
-                        <div class="icon">
-                            <i class="fas fa-bookmark icon-bookmark"></i>
-                            <div class="badge-icon badge-bookmark">5</div>
-                        </div>
-                        <div class="icon">
-                            <i class="fas fa-heart icon-heart"></i>
-                            <div class="badge-icon badge-heart">9</div>
-                        </div>
-                    </div>
-
-
-
-                </div>
-
-
-            </section>
-
-
-            <!-------------------------------- -------buttons--------------------------------------------- -->
-
-            <section id="buttons">
-                <h1 class="heading-text">Button</h1>
-                <div class="container">
-                    <h4>Primary and Secondary Button</h4>
-                    <div class="buttons">
-
-                        <a class="button button-primary" href=""> Primary Button
-                        </a>
-                        <a class="button button-secondary" href=""> Secondary Button
-                        </a>
-                    </div>
-                    <h4>Icon Buttons</h4>
-                    <div class="buttons">
-                        <button class="button button-icon"><i class=" fa fa-home"></i></button>
-                        <button class="button button-icon"><i class=" fas fa-search"></i></button>
-                        <button class="button button-icon"><i class=" fas fa-map-marker-alt"></i></button>
-                        <button class="button button-icon"><i class=" far fa-bookmark"></i></button>
-                        <button class="button button-icon"><i class=" fa fa-trash"></i></button>
-
-                    </div>
-                    <h4>Floating Action Button</h4>
-                    <div>
-                        <button class="button button-fab"><i class="fas fa-plus"></i></button>
-
-                    </div>
-                </div>
-
-            </section>
-
-
-
-            <!-- -------------------------------------cards-------------------------------------------- -->
-            <section id="cards">
-                <h1 class="heading-text">Card</h1>
-                <div class="container">
-
-                    <div class="cards-section">
-                        <div class="card">
-                            <img src="images/pizza.jpg" class="card-img">
-                            <div class="card-info">
-                                <p class="card-title">Carbonara Pizza</p>
-                                <small class="card-price">Rs. 500</small>
-                                <a class="button button-primary card-add-to-cart">Add+</a>
-                            </div>
-                        </div>
-
-
-                        <div class="card">
-                            <img src="images/pasta.jpg" class="card-img">
-                            <div class="card-badge-small">New</div>
-                            <div class="card-info">
-                                <p class="card-title">Squid Ink Pasta</p>
-                                <small class="card-price">Rs. 500</small>
-                                <a class="button button-primary card-add-to-cart">Add+</a>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <img src="images/salad.jpg" class="card-img">
-                            <div class="card-badge-large">PRO 20% OFF</div>
-                            <div class="card-info">
-                                <p class="card-title">Mozarella salad</p>
-                                <small class="card-price">Rs. 500</small>
-                                <a class="button button-primary card-add-to-cart ">Add+</a>
-                            </div>
-                        </div>
-
-                        <div class="cards-section">
-                            <div class="card">
-                                
-                                <div class="card-info">
-                                    <p class="card-title">Fun Facts!</p>
-                                    <small>Peanut butter can be made to make diamonds! How, you ask? Well, simply put, you must recreate the conditions of the lower mantle or Earth for weeks to create a 2-3mm wide diamond. So that’s only about 2,2000 degrees Celsius…</small>
-                                </div>
-                            </div>
-
-                            <div class="card">
-                                <img src="images/pizza.jpg" class="card-img card-filter">
-                                <div class="card-overlay">Out of Stock</div>
-                                <div class="card-info">
-                                    <p class="card-title ">Carbonara Pizza</p>
-                                    <small class="card-price">Rs. 500</small>
-                                    <a class="button card-add-to-cart button-disable">Add+</a>
-                                </div>
-                            </div>
-
-                       
-            </section>
-
-            <!-- --------------------------modal---------------------------------- -->
-
-            <section id="modal">
-                <h1>Modal</h1>
-                <div class="modal">
-                    <i class="fas fa-exclamation-triangle modal-icon"></i>
-                    <p> Are you sure you want to proceed?
-                    <div class="modal-buttons">
-                        <button class="modal-buttons button button-primary ">Yes</button>
-                        <button class="modal-buttons button button-secondary"> Cancel</button>
-                    </div>
-                </div>
-            </section>
-
-
-
-            <!-- ----------------------------navigation---------------------------- -->
-            <section id="navigation">
-                <h1>Navigation</h1>
-                <nav class="navigation-desktop">
-                    <h1 class="navigation-logo">CORAL-UI</h1>
-                    <div class="navigation-items"><a>Home</a>
-                        <a>Wishlist</a>
-                        <a>Cart</a>
-                        <a>User</a>
-                    </div>
-                </nav>
-            </section>
-
-
-            <!-- ------------------------------rating-------------------------- -->
-            <section id="ratings">
-                <h1>Rating</h1>
-                <div class="rating">
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                </div>
-              
-            </section>
-
-
-
-
-
-
-
-            <!-- -----------------toast------------------------------------ -->
-
-            <section id="toasts">
-                <h1>Toast</h1>
-                <button onclick="showToast()" class="button button-primary toast-button">Show Toast</button>
-                <div id="toast">This is a toast!</div>
-
-            </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </main>
-    </div>
-    <script src="app.js"></script>
 </body>
 
-</html>
+</html> -->
