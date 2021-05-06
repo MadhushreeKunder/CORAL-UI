@@ -9,6 +9,7 @@
     --dark-coral:#fe3239e1;
     --light-pink:#ffeaeb;
     --lightest-pink:  #fdf2f2;
+    --light-gray:#dadada;
     --dark-gray:#4f5255;
     --black: #333;
     --light-gray:#f1f1f1;  
@@ -209,7 +210,7 @@ div{
 .badge-red{
     background-color: var(--red);
 }
-
+                
 .badge-icon{
     height: 1.5rem;
     width: 1.5rem;
@@ -325,6 +326,12 @@ div{
 
 }
 
+.button-disable{
+    cursor: no-drop;
+    background-color:var(--dark-gray) !important}
+
+
+
 /* .btn-add-to-cart{
     
     text-align: right;
@@ -373,6 +380,7 @@ div{
 
 }
 
+
 .card-badge-small{
     position:absolute;
     font-size: 1rem;
@@ -399,7 +407,18 @@ div{
     clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
 }
 
+.card-filter{
+    filter:grayscale(100%) blur(1px);
+}
 
+.card-overlay{
+    position:absolute;
+    top:35%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+}
 
 /* ********icons************ */
 
@@ -434,22 +453,63 @@ div{
     margin:3rem;
     align-items: center;
     background-color: var(--light-pink);
+    border: 1px solid var(--primary-coral);
 
 }
   
 .modal-buttons{
-display: flex;
-justify-content: center;
-margin: 0.5rem 0.2rem;
-border-radius: 0.2rem;
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 0.2rem;
+    border-radius: 0.2rem;
 }
 
 .modal-icon{
     font-size: 3rem;
     display: flex;
-    justify-content: center;
     color: var(--yellow);
     padding: 1rem;
+    justify-content: center;
+
+}
+
+
+/* **************navigation******************** */
+
+.navigation-desktop{
+    display: flex;
+    background-color:var(--primary-coral);
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 3rem;
+}
+
+.navigation-logo{
+    color:white;
+}
+
+
+.navigation-items {
+    right: 1rem;
+  display: block;
+  color: var(--light-pink);
+  text-align: center;
+  justify-content: center;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+
+/* *********rating********** */
+
+.checked {
+    color: orange;
+  }
+
+.rating{
+    margin: 3rem;
 }
 
 /* *******toast***************** */
@@ -476,7 +536,7 @@ border-radius: 0.2rem;
   }
   
   /* Animations */
-  @-webkit-keyframes fadein {
+   @-webkit-keyframes fadein {
     from {bottom: 0; opacity: 0;}
     to {bottom: 50px; opacity: 1;}
   }
@@ -494,7 +554,8 @@ border-radius: 0.2rem;
   @keyframes fadeout {
     from {bottom: 50px; opacity: 1;}
     to {bottom: 0; opacity: 0;}
-  }
+  } 
+
 
   .toast-button{
       margin: 3rem;
