@@ -67,14 +67,20 @@ div{
     font-weight: bold;
     color: white;
     display: flex;
-
+    position: fixed;
+    width:100%;
+    z-index: 2;
   }
   
 .navigation {
     grid-area: nav;
     background-color: var(--lightest-pink);
     padding: 1rem;
-    
+    position: fixed;
+    margin-top:5rem;
+overflow-y: auto; 
+top:0;
+bottom: 0;   
   
   }
   
