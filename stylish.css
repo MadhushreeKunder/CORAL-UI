@@ -80,7 +80,8 @@ div{
     margin-top:5rem;
 overflow-y: auto; 
 top:0;
-bottom: 0;   
+bottom: 0; 
+z-index: 1;  
   
   }
   
@@ -89,6 +90,7 @@ bottom: 0;
     padding: 2rem;
     display: flex;
     flex-direction: column;
+    margin-top: 4rem;
     
   }
 
@@ -268,6 +270,7 @@ bottom: 0;
     text-decoration: none;
     box-sizing: border-box;
     margin:  1rem;
+    cursor: pointer;
 
 }
 
@@ -342,6 +345,7 @@ bottom: 0;
     position: fixed;
     bottom: 20px;
     right: 20px;
+    z-index: 100;
 }
 
 .button-disable{
