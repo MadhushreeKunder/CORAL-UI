@@ -107,9 +107,16 @@ z-index: 1;
 
   .hero-img{
       height: 10rem;
+      width: 10rem;
       align-items: center;
+      justify-content: center;
+      display: flex;
+      margin: 2rem;
   }
 
+  .hero-img-2{
+    margin: auto;
+  }
 
   /*************** links ********************/
 
@@ -442,6 +449,19 @@ z-index: 1;
     
 }
 
+/* **********footer******* */
+
+footer{
+    position: fixed;
+    bottom: 0;
+   /* margin: 0 auto ; */
+   background-color: #0f3644;
+   color: var(--primary-coral);
+   width: 100%;
+   text-align: center;
+   padding: 1rem;
+}
+
 /* ********icons************ */
 
 .icon{
@@ -463,6 +483,19 @@ z-index: 1;
 .icon-heart{
     color: var(--red);
 
+}
+
+/* *****index page*** */
+
+.index-flex{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 700px;
+    position: relative;
 }
 
 /* ****logo*****/
