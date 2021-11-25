@@ -55,7 +55,7 @@
                 <div class="container">
                     <h4>Error Alert</h4>
                     <div class="alerts alerts-error">
-                      <p>This is an <strong>error</strong> alert!</p><button class="close-btn">&times;</button>
+                      <p>This is an <strong>error</strong> alert!</p><button onclick="this.parentElement.style.display='none'" class="close-btn">&times;</button>
                         <!-- onclick="this.parentElement.style.display='none';"  -----to close the error -->
                     </div>
 
@@ -63,19 +63,19 @@
                     <h4>Success Alert</h4>
                     <div class="alerts alerts-success">
                          <p>This is a <strong>success</strong> alert!</p>
-                        <button class="close-btn">&times;</button>
+                        <button onclick="this.parentElement.style.display='none'" class="close-btn">&times;</button>
                     </div>
 
 
                     <h4>Info Alert</h4>
                     <div class="alerts alerts-info">
-                      <p>This is an <strong>info</strong> alert!</p><button class="close-btn">&times;</button>
+                      <p>This is an <strong>info</strong> alert!</p><button onclick="this.parentElement.style.display='none'" class="close-btn">&times;</button>
                     </div>
 
 
                     <h4>Warning Alert</h4>
                     <div class="alerts alerts-warning">
-                      <p>This is a <strong>warning</strong> alert!</p><button class="close-btn">&times;</button>
+                      <p>This is a <strong>warning</strong> alert!</p><button onclick="this.parentElement.style.display='none'" class="close-btn">&times;</button>
                     </div>
 
                 </div>
@@ -265,10 +265,10 @@
                 <h1>Modal</h1>
                 <div class="modal">
                     <i class="fas fa-exclamation-triangle modal-icon"></i>
-                    <p> Are you sure you want to proceed?
+                    <p> Are you sure you want to proceed? </p>
                     <div class="modal-buttons">
-                        <button class="modal-buttons button button-primary ">Yes</button>
-                        <button class="modal-buttons button button-secondary"> Cancel</button>
+                        <button class="button button-primary "> Yes </button>
+                        <button class="button button-secondary"> Cancel</button>
                     </div>
                 </div>
             </section>
