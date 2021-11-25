@@ -330,7 +330,7 @@ a {
   width: 3.5rem;
   box-shadow: var(--box-shadow);
   text-align: center;
-  justify-content: center;
+  position: relative;
 }
 
 .button-fab:hover {
@@ -352,6 +352,9 @@ a {
   cursor: no-drop;
   background-color: var(--dark-gray) !important;
 }
+
+
+
 
 /* ********card******* */
 
