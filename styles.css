@@ -354,31 +354,35 @@ div {
 
 .card {
   width: 15rem;
-  height: 15rem;
-  border-radius: 0.5rem;
+  height: auto;
   box-shadow: var(--box-shadow);
   padding: 0.75rem;
   margin: 1rem;
   border-radius: 1rem;
-  position: relative;
+  /* position: relative; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
 
 .card-img {
   width: 100%;
+  border: 2px solid red;
 }
 
 .card-info {
-  /* text-align: left; */
-  /*background-color: var(--primary-coral); */
+    margin-top: 0.5rem;
+border: 2px solid blue;
 }
 
 .card-add-to-cart {
   background-color: var(--primary-coral);
   border-radius: 0.2rem;
   padding: 0.5rem;
-  position: absolute;
-  bottom: 0.5rem;
-  right: 1.5rem;
+  /* bottom: 0.5rem;
+  right: 1.5rem; */
   color: white;
   box-shadow: var(--box-shadow);
   margin: 0;
