@@ -101,6 +101,10 @@ a {
   margin: 1rem 0rem;
 }
 
+.flex {
+  display: flex;
+}
+
 /* *********** image ************ */
 
 .hero-img {
@@ -499,7 +503,6 @@ footer {
   border: 1px solid var(--primary-coral);
 
   text-align: center;
-
 }
 
 .modal-buttons {
@@ -520,26 +523,36 @@ footer {
 
 .navigation-desktop {
   display: flex;
+  justify-content: space-between;
   background-color: var(--primary-coral);
   padding: 1rem;
-  font-size: 2rem;
-  font-weight: bold;
   margin: 3rem;
+
+  font-size: 1.5rem;
+  font-weight: bold;
+  align-items: center;
 }
 
 .navigation-logo {
   color: white;
+  cursor: pointer;
+  align-items: center;
+  margin: 0 1rem;
 }
 
-.navigation-items {
-  right: 1rem;
-  display: block;
+.navigation-links {
   color: var(--light-pink);
-  text-align: center;
-  justify-content: center;
-  padding: 1rem;
   text-decoration: none;
   font-size: 1.5rem;
+}
+
+.navigation-item {
+  margin-right: 1rem;
+}
+
+.navigation-item:hover {
+  color: white;
+  cursor: pointer;
 }
 
 /* *********rating********** */
