@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CORAL-UI</title>
     <link href="styles.css" rel="stylesheet">
-    <link href="stylish.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8d70e79a7e.js" crossorigin="anonymous"></script>
     <link rel="icon" href="images/circle-cropped.png" type="image">
 
@@ -24,7 +23,7 @@
         <header class="header">
             <!-- <img src="images/circle-cropped.png"> -->
             <img src="images/circle-cropped (2).png" class="logo">
-           <h1> CORAL-UI</h1>
+            <h1> CORAL-UI</h1>
         </header>
 
         <nav class="navigation">
@@ -56,27 +55,54 @@
                 <div class="container">
                     <h4>Error Alert</h4>
                     <div class="alerts alerts-error">
-                        This is an <strong>error</strong> alert!<span class="closebtn">&times;</span>
-                        <!-- onclick="this.parentElement.style.display='none';"  -----to close the error -->
+                        <p>This is an <strong>error</strong> alert!</p><button
+                            onclick="this.parentElement.style.display='none'" class="close-btn">&times;</button>
                     </div>
 
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=31px&ph=16px&ln=true&fl=1&fm=Hack&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Ch4%253EError%2520Alert%253C%252Fh4%253E%250A%2509%253Cdiv%2520class%253D%2522alerts%2520alerts-error%2522%253E%250A%2509%2509%253Cp%253EThis%2520is%2520an%2520%253Cstrong%253E%2520error%2520%253C%252Fstrong%253E%2520alert%21%2520%253C%252Fp%253E%250A%2509%2509%253Cbutton%2520onclick%253D%2522this.parentElement.style.display%253D%27none%27%2522%2509%2509%2509%2509class%253D%2522close-btn%2522%253E%2526times%253B%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E"
+                        style="width: 800px; height: 270px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
 
                     <h4>Success Alert</h4>
                     <div class="alerts alerts-success">
-                        This is a <strong>success</strong> alert!<span class="closebtn">&times;</span>
+                        <p>This is a <strong>success</strong> alert!</p>
+                        <button onclick="this.parentElement.style.display='none'" class="close-btn"> &times; </button>
                     </div>
+
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=31px&ph=16px&ln=true&fl=1&fm=Hack&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Ch4%253ESuccess%2520Alert%253C%252Fh4%253E%250A%2509%253Cdiv%2520class%253D%2522alerts%2520alerts-success%2522%253E%250A%2509%2509%253Cp%253EThis%2520is%2520a%2520%253Cstrong%253E%2520success%2520%253C%252Fstrong%253E%2520alert%21%2520%253C%252Fp%253E%250A%2509%2509%253Cbutton%2520onclick%253D%2522this.parentElement.style.display%253D%27none%27%2522%2509%2509%2509%2509class%253D%2522close-btn%2522%253E%2526times%253B%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E"
+                        style="width: 800px; height: 270px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
 
 
                     <h4>Info Alert</h4>
                     <div class="alerts alerts-info">
-                        This is an <strong>info</strong> alert!<span class="closebtn">&times;</span>
+                        <p>This is an <strong>info</strong> alert!</p><button
+                            onclick="this.parentElement.style.display='none'" class="close-btn">&times;</button>
                     </div>
+
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=31px&ph=16px&ln=true&fl=1&fm=Hack&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Ch4%253EInfo%2520Alert%253C%252Fh4%253E%250A%2509%253Cdiv%2520class%253D%2522alerts%2520alerts-info%2522%253E%250A%2509%2509%253Cp%253EThis%2520is%2520an%2520%253Cstrong%253E%2520info%2520%253C%252Fstrong%253E%2520alert%21%2520%253C%252Fp%253E%250A%2509%2509%253Cbutton%2520onclick%253D%2522this.parentElement.style.display%253D%27none%27%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522close-btn%2522%253E%2526times%253B%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E"
+                        style="width: 800px; height: 270px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
 
 
                     <h4>Warning Alert</h4>
                     <div class="alerts alerts-warning">
-                        This is a <strong>warning</strong> alert!<span class="closebtn">&times;</span>
+                        <p>This is a <strong>warning</strong> alert!</p><button
+                            onclick="this.parentElement.style.display='none'" class="close-btn">&times;</button>
                     </div>
+
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=31px&ph=16px&ln=true&fl=1&fm=Hack&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Ch4%253EWarning%2520Alert%253C%252Fh4%253E%250A%2509%253Cdiv%2520class%253D%2522alerts%2520alerts-warning%2522%253E%250A%2509%2509%253Cp%253EThis%2520is%2520a%2520%253Cstrong%253E%2520warning%2520%253C%252Fstrong%253E%2520alert%21%2520%253C%252Fp%253E%250A%2509%2509%253Cbutton%2520onclick%253D%2522this.parentElement.style.display%253D%27none%27%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522close-btn%2522%253E%2526times%253B%253C%252Fbutton%253E%250A%2509%253C%252Fdiv%253E"
+                        style="width: 800px; height: 270px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
 
                 </div>
 
@@ -89,15 +115,23 @@
             <section id="avatars">
                 <h1 class="heading-text">Avatars</h1>
                 <div class="container">
-                    <div class="avatar"><img class="avatar-img avatar-img-small" src="images/My photo-madhushree.png"
-                            alt="Avatar"></div>
-                    <div class="avatar"><img class="avatar-img avatar-img-medium" src="images/My photo-madhushree.png"
-                            alt="Avatar"></div>
-                    <div class="avatar"><img class="avatar-img avatar-img-large" src="images/My photo-madhushree.png"
-                            alt="Avatar"></div>
+                    <div class="avatar">
+                        <img class="avatar-img avatar-img-small" src="images/My photo-madhushree.png" alt="Avatar">
+                    </div>
+                    <div class="avatar">
+                        <img class="avatar-img avatar-img-medium" src="images/My photo-madhushree.png" alt="Avatar">
+                    </div>
+                    <div class="avatar">
+                        <img class="avatar-img avatar-img-large" src="images/My photo-madhushree.png" alt="Avatar">
+                    </div>
 
-
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=31px&ph=16px&ln=true&fl=1&fm=Hack&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-img%2520avatar-img-small%2522%2520%250A%2520%2520%2520%2520src%253D%2522images%252Fimage.png%2522%250A%2520%2520%2520%2520alt%253D%2522Avatar%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-img%2520avatar-img-medium%2522%2520%250A%2520%2520%2520%2520src%253D%2522images%252Fimage.png%2522%250A%2520%2520%2520%2520alt%253D%2522Avatar%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-img%2520avatar-img-large%2522%2520%250A%2520%2520%2520%2520src%253D%2522images%252Fimage.png%2522%250A%2520%2520%2520%2520alt%253D%2522Avatar%2522%253E%250A%253C%252Fdiv%253E"
+                        style="width: 800px; height: 461px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
                 </div>
+
 
             </section>
 
@@ -119,6 +153,14 @@
                         <div class="badge badge-red"></div>
                     </div>
 
+                    <br>
+
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=31px&ph=16px&ln=true&fl=1&fm=Hack&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-img%2520avatar-img-medium%2520%2522%2520%250A%2520%2520%2520%2520src%253D%2522images%252Fimage.png%2522%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-green%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-img%2520avatar-img-medium%2520badge-red%2522%2520%250A%2520%2520%2520%2520src%253D%2522images%252Fimage.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Avatar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520badge-red%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 800px; height: 398px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
                     <h4>Badge on Icons</h4>
                     <div class="icons">
                         <div class="icon">
@@ -134,6 +176,11 @@
                             <div class="badge-icon badge-heart">9</div>
                         </div>
                     </div>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=31px&ph=16px&ln=true&fl=1&fm=Hack&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520%2520icon-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2520badge-cart%2522%253E8%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bookmark%2520icon-bookmark%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2520badge-bookmark%2522%253E5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522icon%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520icon-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2520badge-heart%2522%253E9%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 800px; height: 398px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
 
 
 
@@ -150,6 +197,7 @@
                 <div class="container">
                     <h4>Primary and Secondary Button</h4>
                     <div class="buttons">
+
 
                         <a class="button button-primary" href=""> Primary Button
                         </a>
@@ -182,12 +230,18 @@
                 <div class="container">
 
                     <div class="cards-section">
+
+
                         <div class="card">
                             <img src="images/pizza.jpg" class="card-img">
                             <div class="card-info">
-                                <p class="card-title">Carbonara Pizza</p>
-                                <small class="card-price">Rs. 500</small>
-                                <a class="button button-primary card-add-to-cart">Add+</a>
+                                <div>
+                                    <p class="card-title">Carbonara Pizza</p>
+                                    <small class="card-price">Rs. 500</small>
+                                </div>
+                                <button class="button button-primary card-add-to-cart">
+                                    <a href="">Add to Cart</a>
+                                </button>
                             </div>
                         </div>
 
@@ -196,9 +250,13 @@
                             <img src="images/pasta.jpg" class="card-img">
                             <div class="card-badge-small">New</div>
                             <div class="card-info">
-                                <p class="card-title">Squid Ink Pasta</p>
-                                <small class="card-price">Rs. 500</small>
-                                <a class="button button-primary card-add-to-cart">Add+</a>
+                                <div>
+                                    <p class="card-title">Squid Ink Pasta</p>
+                                    <small class="card-price">Rs. 500</small>
+                                </div>
+                                <button class="button button-primary card-add-to-cart">
+                                    <a href="">Add to Cart</a>
+                                </button>
                             </div>
                         </div>
 
@@ -206,21 +264,29 @@
                             <img src="images/salad.jpg" class="card-img">
                             <div class="card-badge-large">PRO 20% OFF</div>
                             <div class="card-info">
-                                <p class="card-title">Mozarella salad</p>
-                                <small class="card-price">Rs. 500</small>
-                                <a class="button button-primary card-add-to-cart ">Add+</a>
+
+                                <div>
+                                    <p class="card-title">Mozarella salad</p>
+                                    <small class="card-price">Rs. 500</small>
+                                </div>
+                                <button class="button button-primary card-add-to-cart">
+                                    <a href="">Add to Cart</a>
+                                </button>
                             </div>
                         </div>
 
                         <div class="cards-section">
-                            <div class="card">
 
+                            <div class="card">
                                 <div class="card-info">
-                                    <p class="card-title">Fun Facts!</p>
-                                    <small>Peanut butter can be made to make diamonds! How, you ask? Well, simply put,
-                                        you must recreate the conditions of the lower mantle or Earth for weeks to
-                                        create a 2-3mm wide diamond. So that’s only about 2,2000 degrees
-                                        Celsius…</small>
+                                    <div>
+                                        <p class="card-title">Fun Facts!</p>
+                                        <small>Peanut butter can be made to make diamonds! How, you ask? Well, simply
+                                            put,
+                                            you must recreate the conditions of the lower mantle or Earth for weeks to
+                                            create a 2-3mm wide diamond. So that’s only about 2,2000 degrees
+                                            Celsius…</small>
+                                    </div>
                                 </div>
                             </div>
 
@@ -228,12 +294,16 @@
                                 <img src="images/pizza.jpg" class="card-img card-filter">
                                 <div class="card-overlay">Out of Stock</div>
                                 <div class="card-info">
-                                    <p class="card-title ">Carbonara Pizza</p>
-                                    <small class="card-price">Rs. 500</small>
-                                    <a class="button card-add-to-cart button-disable">Add+</a>
+                                    <div>
+                                        <p class="card-title ">Carbonara Pizza</p>
+                                        <small class="card-price">Rs. 500</small>
+                                    </div>
+                                    <button class="button card-add-to-cart button-disable">
+                                        <a class="button-disable">Add to Cart</a>
+                                    </button>
                                 </div>
                             </div>
-
+                        </div>
 
             </section>
 
@@ -243,10 +313,10 @@
                 <h1>Modal</h1>
                 <div class="modal">
                     <i class="fas fa-exclamation-triangle modal-icon"></i>
-                    <p> Are you sure you want to proceed?
+                    <p> Are you sure you want to proceed? </p>
                     <div class="modal-buttons">
-                        <button class="modal-buttons button button-primary ">Yes</button>
-                        <button class="modal-buttons button button-secondary"> Cancel</button>
+                        <button class="button button-primary "> Yes </button>
+                        <button class="button button-secondary"> Cancel</button>
                     </div>
                 </div>
             </section>
@@ -256,14 +326,18 @@
             <!-- ----------------------------navigation---------------------------- -->
             <section id="navigation">
                 <h1>Navigation</h1>
-                <nav class="navigation-desktop">
-                    <h1 class="navigation-logo">CORAL-UI</h1>
-                    <div class="navigation-items"><a>Home</a>
-                        <a>Wishlist</a>
-                        <a>Cart</a>
-                        <a>User</a>
+                <div class="navigation-desktop">
+                    <div class="flex navigation-logo">
+                        <img src="images/circle-cropped.png" class="logo" alt="">
+                        <h1>CORAL-UI</h1>
                     </div>
-                </nav>
+                    <div class="navigation-links">
+                        <a class="navigation-item">Home</a>
+                        <a class="navigation-item">Wishlist</a>
+                        <a class="navigation-item">Cart</a>
+                        <a class="navigation-item">User</a>
+                    </div>
+                    </nav>
             </section>
 
 
@@ -296,22 +370,14 @@
             </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-<a class="button button-fab button-fab-top" href="#"><i class="fas fa-chevron-up"></i></a>
+            <a href="#">
+                <button class="button button-fab button-fab-top">
+                    <i class="fas fa-chevron-up"></i>
+                </button></a>
         </main>
     </div>
     <script src="app.js"></script>
-    
+
 </body>
 
 </html>
