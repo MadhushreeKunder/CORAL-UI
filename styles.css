@@ -145,11 +145,15 @@ a {
 
 .alerts {
   padding: 1rem;
-  color: white;
   margin: 1rem 0rem;
-  display: inline-block;
-  position: relative;
+
+  color: white;
   border-radius: 0.3rem;
+
+  max-width: 15rem;
+
+  display: flex;
+  justify-content: space-between;
 }
 
 .alerts-error {
@@ -168,11 +172,12 @@ a {
   background-color: var(--yellow);
 }
 
-.closebtn {
-  margin-left: 1rem;
+.close-btn {
+  border: none;
   color: white;
+  background-color: inherit;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 1rem;
   cursor: pointer;
 }
