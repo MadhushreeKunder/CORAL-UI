@@ -281,11 +281,11 @@ a {
 
 .button-primary {
   color: white;
+  border: 3px solid var(--primary-coral);
   background-color: var(--primary-coral);
 }
 .button-primary:hover {
   background-color: var(--dark-coral);
-  border: none;
   outline: none;
   transition: 0.5s;
   box-shadow: var(--box-shadow);
