@@ -42,6 +42,11 @@ div {
   display: block;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /********** grid ******/
 
 .page {
@@ -254,14 +259,14 @@ div {
 }
 
 .button {
-  padding: 1rem;
+  margin: 1rem;
+  padding: 0.5rem;
   font-size: 1rem;
   outline: none;
   border: none;
   border-radius: 0.5rem;
   text-decoration: none;
   box-sizing: border-box;
-  margin: 1rem;
   cursor: pointer;
 }
 
@@ -339,12 +344,6 @@ div {
   background-color: var(--dark-gray) !important;
 }
 
-/* .btn-add-to-cart{
-    
-    text-align: right;
-    background-color: var(--light-gray);
-} */
-
 /* ********card******* */
 
 .cards-section {
@@ -353,39 +352,39 @@ div {
 }
 
 .card {
-  width: 15rem;
+  width: 18rem;
   height: auto;
   box-shadow: var(--box-shadow);
   padding: 0.75rem;
   margin: 1rem;
   border-radius: 1rem;
-  /* position: relative; */
+  position: relative;
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-
 .card-img {
   width: 100%;
-  border: 2px solid red;
+  position: relative;
 }
 
 .card-info {
-    margin-top: 0.5rem;
-border: 2px solid blue;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .card-add-to-cart {
   background-color: var(--primary-coral);
   border-radius: 0.2rem;
+  margin: 0;
   padding: 0.5rem;
-  /* bottom: 0.5rem;
-  right: 1.5rem; */
+  /* height: 2rem; */
+
   color: white;
   box-shadow: var(--box-shadow);
-  margin: 0;
 }
 
 .card-badge-small {
@@ -423,6 +422,8 @@ border: 2px solid blue;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  background-color: var(--black);
+  padding: 0.2rem;
 }
 
 /* **********footer******* */
