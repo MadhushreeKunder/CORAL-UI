@@ -11,8 +11,10 @@
   --dark-gray: #4f5255;
   --black: #333;
   --light-gray: #f1f1f1;
+
   --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05),
     0 6px 20px 0 rgba(0, 0, 0, 0.075);
+
   --red: #f66359;
   --green: #6bbd6e;
   --blue: #47a8f5;
@@ -282,11 +284,14 @@ a {
 
 .button-primary {
   color: white;
+  outline: none;
   border: 3px solid var(--primary-coral);
   background-color: var(--primary-coral);
 }
+
 .button-primary:hover {
   background-color: var(--dark-coral);
+  border: 3px solid var(--dark-coral);
   outline: none;
   transition: 0.5s;
   box-shadow: var(--box-shadow);
