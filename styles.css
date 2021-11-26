@@ -108,6 +108,11 @@ a {
   display: flex;
 }
 
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+
 /* *********** image ************ */
 
 .hero-img {
