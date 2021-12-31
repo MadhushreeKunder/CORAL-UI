@@ -539,43 +539,70 @@ footer {
 
 /* **************navigation******************** */
 
-.navigation-desktop {
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--primary-coral);
-  padding: 1rem;
-  margin: 3rem;
 
-  font-size: 1.5rem;
-  font-weight: bold;
-  align-items: center;
-}
-
-.navigation-logo {
+.nav-logo {
   color: white;
   cursor: pointer;
   align-items: center;
-  margin: 0 1rem;
 }
 
-.navigation-links {
+/* .navigation-links {
   color: var(--light-pink);
   text-decoration: none;
   font-size: 1.5rem;
+} */
+
+.navigation-desktop {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: var(--primary-coral);
+
+  /* added for nav-toggle positioning */
+  position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
-.navigation-item {
-  margin-right: 1rem;
+.nav{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  height: auto;
+
 }
 
-.navigation-item:hover {
-  color: white;
-  cursor: pointer;
+.nav-list{
+  margin: 0px;
+  list-style: none;
+  display: flex;
+  align-items: center;
 }
 
 
-/* ----------------------------------------kevin---------- */
 
+.nav-item{
+  margin-left: 1.5rem
+}
+
+.nav-link{
+  color:white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+  opacity: 0.65;
+}
+
+.nav-header{
+  background-color: var(--primary-coral);
+  padding: 1rem;
+
+}
 
 
 
