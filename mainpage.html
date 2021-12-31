@@ -22,7 +22,7 @@
             <h1><a href="index.html"> CORAL-UI</a></h1>
         </header>
 
-        <nav class="navigation">
+        <nav class="side-navigation">
             <h2>Components</h2>
             <ul>
                 <li class="li-comps"><a href="#alerts" class="li li-hover">Alert</a></li>
@@ -30,8 +30,8 @@
                 <li class="li-comps"><a href="#badges" class="li li-hover">Badge</a></li>
                 <li class="li-comps"><a href="#buttons" class="li li-hover">Button</a></li>
                 <li class="li-comps"><a href="#cards" class="li li-hover">Card</a></li>
-                <li class="li-comps"><a href="#icons" class="li li-hover">Icon</a></li>
                 <li class="li-comps"><a href="#modal" class="li li-hover">Modal</a></li>
+                <li class="li-comps"><a href="#navigation" class="li li-hover">Navigation</a></li>
                 <li class="li-comps"><a href="#ratings" class="li li-hover">Rating</a></li>
                 <li class="li-comps"><a href="#toasts" class="li li-hover">Toast</a></li>
 
@@ -205,6 +205,8 @@
                             <a href="">Secondary Button</a>
                         </button>
 
+                        <br>
+
                         <iframe
                             src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=33px&ph=14px&ln=true&fl=1&fm=Hack&fs=14px&lh=164%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520button-primary%2522%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253EPrimary%2520Button%253C%252Fa%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522button%2520button-secondary%2522%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253ESecondary%2520Button%253C%252Fa%253E%250A%253C%252Fbutton%253E"
                             style="width: 800px; height: 307px; border:0; transform: scale(1); overflow:hidden;"
@@ -221,6 +223,8 @@
                         <button class="button button-icon"><i class=" fas fa-map-marker-alt"></i></button>
                         <button class="button button-icon"><i class=" far fa-bookmark"></i></button>
                         <button class="button button-icon"><i class=" fa fa-trash"></i></button>
+
+                        <br>
 
                         <iframe
                             src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=33px&ph=14px&ln=true&fl=1&fm=Hack&fs=14px&lh=164%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520button-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522%2520fa%2520fa-home%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522button%2520button-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522%2520fas%2520fa-search%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522button%2520button-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522%2520fas%2520fa-map-marker-alt%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522button%2520button-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522%2520far%2520fa-bookmark%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522button%2520button-icon%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522%2520fa%2520fa-trash%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
@@ -404,7 +408,7 @@
 
 
             <!-- ----------------------------navigation---------------------------- -->
-            <section id="navigation">
+            <!-- <section id="navigation">
                 <h1>Navigation</h1>
                 <nav class="navigation-desktop">
                     <div class="flex navigation-logo">
@@ -417,11 +421,38 @@
                         <a class="navigation-item">Cart</a>
                         <a class="navigation-item">User</a>
                     </div>
-                </nav>
+                </nav> -->
+
+            <!-- --------------------------- -->
+
+            <section id="navigation">
+                <h1> Navigation </h1>
+                <header class="nav-header">
+                    <div class="navigation-desktop">
+                        <a class="nav-logo flex" href="#">
+                            <img src="images/circle-cropped.png" class="logo" alt="CORAL-UI">
+                            <h1>CORAL</h1>
+                        </a>
+                        <nav class="nav">
+                            <ul class="nav-list nav-list--primary">
+                                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Cart</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Wishlist</a></li>
+                            </ul>
+                            <ul class="nav-list nav-list--secondary">
+                                <li class="nav-item"><a href="#" class="nav-link">Sign In</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link nav-link--button">Sign up</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+
+
+                <br>
 
                 <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=32px&ph=16px&ln=true&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navigation-desktop%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2520navigation-logo%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522images%252Fcircle-cropped.png%2522%2520class%253D%2522logo%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253ECORAL-UI%253C%252Fh1%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navigation-links%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522navigation-item%2522%253EHome%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522navigation-item%2522%253EWishlist%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522navigation-item%2522%253ECart%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522navigation-item%2522%253EUser%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
-                    style="width: 800px; height: 429px; border:0; transform: scale(1); overflow:hidden;"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=33px&ph=14px&ln=true&fl=1&fm=Hack&fs=14px&lh=164%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522nav-header%2522%253E%250A%2509%253Cdiv%2520class%253D%2522navigation-desktop%2522%253E%250A%2509%2509%253Ca%2520class%253D%2522nav-logo%2520flex%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cimg%2520src%253D%2522images%252Fcircle-cropped.png%2522%2520class%253D%2522logo%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522CORAL-UI%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Ch1%253ECORAL%253C%252Fh1%253E%250A%2509%2509%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cnav%2520class%253D%2522nav%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522nav-list%2520nav-list--primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cli%2520class%253D%2522nav-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2522%253EHome%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2522%253ECart%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2522%253EWishlist%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522nav-list%2520nav-list--secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2522%253ESign%2520In%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2522%253ESign%2520up%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2509%2509%253C%252Fnav%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fheader%253E"
+                    style="width: 800px; height: 720px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </section>
