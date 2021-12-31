@@ -76,7 +76,7 @@ a {
   z-index: 2;
 }
 
-.navigation {
+.side-navigation {
   grid-area: nav;
   background-color: var(--lightest-pink);
   padding: 1rem;
@@ -271,8 +271,10 @@ a {
 
 /*********** button *********/
 .buttons {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex; */
+  /* flex-wrap: wrap;
+  flex-direction: row; */
+
 }
 
 .button {
@@ -570,6 +572,19 @@ footer {
   color: white;
   cursor: pointer;
 }
+
+
+/* ----------------------------------------kevin---------- */
+
+
+
+
+
+
+
+
+
+
 
 /* *********rating********** */
 
