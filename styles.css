@@ -502,7 +502,12 @@ footer {
 
 /* ****logo*****/
 
-.logo {
+.logo{
+  display: flex;
+  justify-content: center;
+}
+
+.logo-img {
   width: 3rem;
   height: 3rem;
   margin-right: 1rem;
@@ -692,4 +697,23 @@ footer {
 
 .toast-button {
   margin: 3rem;
+}
+
+
+/* responsive */
+
+
+
+@media only screen and (max-width: 900px) {
+
+  .main{
+    background-color: blueviolet;
+  }
+
+  .header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  
 }
