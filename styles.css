@@ -108,7 +108,7 @@ a {
   display: flex;
 }
 
-.flex-col{
+.flex-col {
   display: flex;
   flex-direction: column;
 }
@@ -138,9 +138,11 @@ a {
 .li {
   text-decoration: none;
   color: black;
+  display: block;
 }
+
 .li-hover:hover {
-  padding: 1rem;
+  padding: 0.5rem;
   color: white;
   background-image: linear-gradient(
     to right,
@@ -274,7 +276,6 @@ a {
   /* display: flex; */
   /* flex-wrap: wrap;
   flex-direction: row; */
-
 }
 
 .button {
@@ -365,11 +366,6 @@ a {
   cursor: no-drop;
   background-color: var(--dark-gray) !important;
 }
-
-
-
-
-
 
 /* ********card******* */
 
@@ -502,7 +498,7 @@ footer {
 
 /* ****logo*****/
 
-.logo{
+.logo {
   display: flex;
   justify-content: center;
 }
@@ -544,7 +540,6 @@ footer {
 
 /* **************navigation******************** */
 
-
 .nav-logo {
   color: white;
   cursor: pointer;
@@ -568,54 +563,49 @@ footer {
   justify-content: space-between;
 }
 
-.nav{
+.nav {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   position: relative;
   height: auto;
-
 }
 
-.nav-list{
+.nav-list {
   margin: 0px;
   list-style: none;
   display: flex;
   align-items: center;
 }
 
-
-
-.nav-item{
-  margin-left: 1.5rem
+.nav-item {
+  margin-left: 1.5rem;
 }
 
-.nav-link{
-  color:white;
+.nav-link {
+  color: white;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .nav-link:hover,
-.nav-link:focus{
+.nav-link:focus {
   opacity: 0.65;
 }
 
-.nav-header{
+.nav-header {
   background-color: var(--primary-coral);
   padding: 1rem;
-
 }
 
+.hamburger-menu {
+  display: flex;
+}
 
-
-
-
-
-
-
-
+.hamburger-menu--toggle {
+  display: none;
+}
 
 /* *********rating********** */
 
@@ -699,21 +689,29 @@ footer {
   margin: 3rem;
 }
 
-
 /* responsive */
 
-
-
 @media only screen and (max-width: 900px) {
-
-  .main{
-    background-color: blueviolet;
+  .main {
+    /* background-color: blueviolet; */
   }
 
-  .header{
+  .header {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
   }
-  
+
+  .side-navigation {
+    display: none;
+  }
+
+  .side-navToggleShow {
+    display: list-item;
+  }
+
+  .hamburger-menu--toggle {
+    display: initial;
+    cursor: pointer;
+  }
 }
