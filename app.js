@@ -15,8 +15,17 @@ function classToggle() {
 document
   .querySelector(".hamburger-menu--toggle")
   .addEventListener("click", classToggle);
-  
 
 function toggleIcon(x) {
   x.classList.toggle("fa-times");
 }
+
+// function copyLink() {
+//   var copyText = document.getElementById("copy-link").lastChild ;
+//   console.log(copyText)
+
+//   copyText.select();
+//   navigator.clipboard.writeText([copyText]);
+  
+//   alert("Copied the text: " + copyText);
+// }
