@@ -15,6 +15,7 @@ function classToggle() {
 document
   .querySelector(".hamburger-menu--toggle")
   .addEventListener("click", classToggle);
+  
 
 function toggleIcon(x) {
   x.classList.toggle("fa-times");
@@ -26,6 +27,13 @@ function toggleIcon(x) {
 
 //   copyText.select();
 //   navigator.clipboard.writeText([copyText]);
-  
+
 //   alert("Copied the text: " + copyText);
 // }
+
+const navToggle = document.querySelector(".nav-toggle");
+const nav = document.querySelector(".nav");
+
+navToggle.addEventListener("click", () => {
+  nav.classList.toggle("nav--visible");
+});
