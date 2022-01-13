@@ -391,20 +391,22 @@
 
             <section id="modal">
                 <h1>Modal</h1>
-                <div class="modal">
-                    <i class="fas fa-exclamation-triangle modal-icon"></i>
-                    <p> Are you sure you want to proceed? </p>
-                    <div class="modal-buttons">
-                        <button class="button button-primary "> Yes </button>
-                        <button class="button button-secondary"> Cancel</button>
+                <div class="container">
+                    <div class="modal">
+                        <i class="fas fa-exclamation-triangle modal-icon"></i>
+                        <p> Are you sure you want to proceed? </p>
+                        <div class="modal-buttons">
+                            <button class="button button-primary "> Yes </button>
+                            <button class="button button-secondary"> Cancel</button>
+                        </div>
                     </div>
-                </div>
 
-                <iframe class="responsive-iframe"
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=32px&ph=16px&ln=true&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520modal-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cp%253E%2520Are%2520you%2520sure%2520you%2520want%2520to%2520proceed%253F%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-primary%2520%2522%253E%2520Yes%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-secondary%2522%253E%2520Cancel%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                    style="width: 800px; height: 334px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
+                    <iframe class="responsive-iframe"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=32px&ph=16px&ln=true&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520modal-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cp%253E%2520Are%2520you%2520sure%2520you%2520want%2520to%2520proceed%253F%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-primary%2520%2522%253E%2520Yes%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-secondary%2522%253E%2520Cancel%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 800px; height: 334px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
             </section>
 
 
@@ -415,54 +417,60 @@
             <section id="navigation">
                 <h1> Navigation </h1>
 
-                <header>
-                    <div class="nav-top nav-top-flex">
-                        <button class="nav-toggle" aria-label="open navigation">
-                            <span class="hamburger"></span>
-                        </button>
-                        <a href="#">
-                            <img class="logo-img" src="images/circle-cropped (2).png" alt="CORAL-UI">
-                        </a>
-                        <nav class="nav">
-                            <ul class="nav-list nav-list--primary">
-                                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-                            </ul>
-                            <ul class="nav-list nav-list--secondary">
-                                <li class="nav-item"><a href="#" class="nav-link">Sign In</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link nav-link--button">Sign up</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </header>
+                <div class="container">
+                    <header>
+                        <div class="nav-top nav-top-flex">
+                            <button class="nav-toggle" aria-label="open navigation">
+                                <span class="hamburger"></span>
+                            </button>
+                            <a href="#">
+                                <img class="logo-img" src="images/circle-cropped (2).png" alt="CORAL-UI">
+                            </a>
+                            <nav class="nav">
+                                <ul class="nav-list nav-list--primary">
+                                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                                </ul>
+                                <ul class="nav-list nav-list--secondary">
+                                    <li class="nav-item"><a href="#" class="nav-link">Sign In</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link nav-link--button">Sign up</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </header>
 
-                <br>
+                    <br>
+                    <div>
+                    <iframe class="responsive-iframe"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=33px&ph=14px&ln=true&fl=1&fm=Hack&fs=14px&lh=164%25&si=false&es=2x&wm=false&code=%253Cheader%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-top%2520nav-top-flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522nav-toggle%2522%2520aria-label%253D%2522open%2520navigation%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522hamburger%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522logo-img%2522%2520src%253D%2522images%252Fcircle-cropped%2520%282%29.png%2522%2520alt%253D%2522CORAL-UI%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cnav%2520class%253D%2522nav%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522nav-list%2520nav-list--primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-item%2522%253E%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2522%253EHome%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-item%2522%253E%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2522%253EAbout%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-item%2522%253E%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2522%253EContact%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522nav-list%2520nav-list--secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-item%2522%253E%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2522%253ESign%2520In%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-item%2522%253E%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2520nav-link--button%2522%253ESign%2520up%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fnav%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fheader%253E"
+                        style="width: 800px; height: 674px; border:0; transform: scale(1); overflow-x: scroll;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
 
-                <iframe class="responsive-iframe"
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=33px&ph=14px&ln=true&fl=1&fm=Hack&fs=14px&lh=164%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522nav-header%2522%253E%250A%2509%253Cdiv%2520class%253D%2522navigation-desktop%2522%253E%250A%2509%2509%253Ca%2520class%253D%2522nav-logo%2520flex%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cimg%2520src%253D%2522images%252Fcircle-cropped.png%2522%2520class%253D%2522logo%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522CORAL-UI%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Ch1%253ECORAL%253C%252Fh1%253E%250A%2509%2509%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cnav%2520class%253D%2522nav%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522nav-list%2520nav-list--primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cli%2520class%253D%2522nav-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2522%253EHome%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2522%253ECart%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2522%253EWishlist%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522nav-list%2520nav-list--secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2522%253ESign%2520In%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2522%253ESign%2520up%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2509%2509%253C%252Fnav%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fheader%253E"
-                    style="width: 800px; height: 720px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
+
+                </div>
             </section>
 
 
             <!-- ------------------------------rating-------------------------- -->
             <section id="ratings">
                 <h1>Rating</h1>
-                <div class="rating">
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                </div>
+                <div class="container">
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
 
-                <iframe class="responsive-iframe"
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=32px&ph=16px&ln=true&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
-                    style="width: 800px; height: 311px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
+                    <iframe class="responsive-iframe"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=32px&ph=16px&ln=true&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                        style="width: 800px; height: 311px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
             </section>
 
 
@@ -475,16 +483,18 @@
 
             <section id="toasts">
                 <h1>Toast</h1>
-                <button onclick="showToast()" class="button button-primary toast-button">Show Toast</button>
-                <div id="toast">This is a toast!</div>
+                <div class="container">
+                    <button onclick="showToast()" class="button button-primary toast-button">Show Toast</button>
+                    <div id="toast">This is a toast!</div>
 
-                <br>
+                    <br>
 
-                <iframe class="responsive-iframe"
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=32px&ph=16px&ln=true&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cbutton%2520onclick%253D%2522showToast%28%29%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522button%2520button-primary%2520toast-button%2522%253E%2520Show%2520Toast%2520%253C%252Fbutton%253E%250A%253Cdiv%2520id%253D%2522toast%2522%253EThis%2520is%2520a%2520toast%21%253C%252Fdiv%253E"
-                    style="width: 800px; height: 215px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
+                    <iframe class="responsive-iframe"
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=32px&ph=16px&ln=true&fl=1&fm=Hack&fs=14px&lh=170%25&si=false&es=2x&wm=false&code=%253Cbutton%2520onclick%253D%2522showToast%28%29%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522button%2520button-primary%2520toast-button%2522%253E%2520Show%2520Toast%2520%253C%252Fbutton%253E%250A%253Cdiv%2520id%253D%2522toast%2522%253EThis%2520is%2520a%2520toast%21%253C%252Fdiv%253E"
+                        style="width: 800px; height: 215px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
 
             </section>
 
